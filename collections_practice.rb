@@ -79,12 +79,14 @@ def add_s(array)
   array.collect.with_index do |word, index|
     index != 1 ? word << "s" : word
   end
+  binding.pry
 end
 
 array = [7, 3, 1, 2, 6, 5, 9, 8, 4]
 strings = ["short", "minuscule", "abit", "tally", "tiny", "big", "biggest", "apple", "bigger"]
 #find_a(strings)
 #sum_array(array)
+add_s(strings)
 
 #sort_array_asc(array)
 #sort_array_desc(array)
