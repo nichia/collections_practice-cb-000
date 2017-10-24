@@ -84,10 +84,6 @@ end
 
 array = [7, 3, 1, 2, 6, 5, 9, 8, 4]
 strings = ["short", "minuscule", "abit", "tally", "tiny", "big", "biggest", "apple", "bigger"]
-#find_a(strings)
-#sum_array(array)
-add_s(strings)
-
 #sort_array_asc(array)
 #sort_array_desc(array)
 #sort_array_char_count(strings)
@@ -95,3 +91,6 @@ add_s(strings)
 #swap_elements_from_to(array, 3, 6)
 #reverse_array(array)
 #kesha_maker(strings)
+#find_a(strings)
+#sum_array(array)
+#add_s(strings)
